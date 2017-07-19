@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile Rich Editor</title>
+    <script src="https://use.fontawesome.com/a2ca0ec84a.js"></script>
+    <link rel="stylesheet" href="./dist/bundle.css">
+</head>
+<body>
+    <div class="content">
+        <input type="text" placeholder="请输入标题" class="title">
+        <div class="line"></div>
+        <div id="editor" contenteditable="true">
+        </div>
+    </div>
+    <div class="tools">
+        <ul class="font">
+            <li id="bold"><i class="fa fa-bold fa-x"></i></li>
+            <li id="italic"><i class="fa fa-italic fa-x"></i></li>
+            <li id="strikethrough"><i class="fa fa-strikethrough fa-x"></i></li>
+        </ul>
+        <ul>
+            <li id="imageBtn" class="active"><i class="fa fa-picture-o fa-x"></i></li>
+            <li id="fontBtn"><i class="fa fa-font fa-x"></i></li>
+            <li id="moreBtn"><i class="fa fa-ellipsis-h fa-x"></i></li>
+            <li id="replyBtn"><i class="fa fa-mail-reply fa-x"></i></li>
+            <li id="reduBtn"><i class="fa fa-mail-forward fa-x"></i></li>
+            <li id="settingBtn"><i class="fa fa-cog fa-x"></i></li>
+        </ul>
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@import './color';
+
+body{
+    margin: 0;
+}
+
+.content{
+    width: auto;
+    min-height: 100vh;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    .title{
+        width: 100%;
+        height: 40px;
+        font-size: 24px;
+        border: none;
+        outline: none;
+    }
+    .line{
+        border: 1px dashed @iconColor;
+        margin-top: 5px;
+    }
+    #editor{
+        min-height: 100vh;
+        margin-top: 20px;
+        outline: none;
+    }
+}
+
+.tools{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+    ul{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: @toolsColor;
+        
+        li{
+            flex: 1;
+            text-align: center;
+            line-height: 40px;
+
+            i{
+                color: @iconColor;
+            }
+        }
+
+        .active i{
+            color: @activeColor;
+        }
+    }
+
+    .font{
+        display: none;
+    }
+
+}
