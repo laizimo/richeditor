@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoodsView">
+        <attr name="decreaseRes" format="reference" />
+        <attr name="increaseRes" format="reference" />
+        <attr name="lu_textColor" format="color" />
+        <attr name="lu_textSize" format="dimension" />
+        <attr name="lu_maxNum" format="integer" />
+        <attr name="lu_minNum" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Tag">
+        <attr name="tag_color" format="color" />
+        <attr name="tag_stroke_width" format="dimension" />
+        <attr name="tag_corner" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="StateColorButton">
+        <attr name="start_color" format="color" />
+        <attr name="end_color" format="color" />
+        <attr name="start_text_color" format="color"/>
+        <attr name="end_text_color" format="color" />
+        <attr name="start_text" format="string" />
+        <attr name="end_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButton">
+        <attr name="lu_toggle_auto" format="boolean" />
+        <attr name="lu_ini_color" format="color" />
+        <attr name="lu_chg_color" format="color" />
+    </declare-styleable>
+</resources>

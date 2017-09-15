@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile Rich Editor</title>
+    <script src="https://use.fontawesome.com/a2ca0ec84a.js"></script>
+    <link rel="stylesheet" href="./dist/bundle.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="content">
+        <input type="text" placeholder="请输入标题" class="title" taskController="title">
+        <div class="line"></div>
+        <div taskController="editor" contenteditable="true" placeholder="请输入正文">
+        </div>
+    </div>
+    <!-- <div taskController="link">
+        <div class="link-content">
+            <header>
+                <span class="title">添加链接</span>
+            </header>
+            <div class="input-group">
+                <input type="text" placeholder="请输入链接名称">
+                <input type="text" placeholder="请输入链接地址">
+            </div>
+                <ul>
+                    <li taskController="reset">取消</li>
+                    <li taskController="confirm">确定</li>
+                </ul>
+        </div>
+    </div>
+    <div class="tools">
+        <ul class="font">
+            <li taskController="bold"><i class="fa fa-bold fa-x"></i></li>
+            <li taskController="italic"><i class="fa fa-italic fa-x"></i></li>
+            <li taskController="strikethrough"><i class="fa fa-strikethrough fa-x"></i></li>
+            <li taskController="formatBlock1"><i class="iconfont icon-H1"></i></li>
+            <li taskController="formatBlock2"><i class="iconfont icon-H"></i></li>
+            <li taskController="formatBlock3"><i class="iconfont icon-H2"></i></li>
+            <li taskController="formatBlock4"><i class="iconfont icon-H3"></i></li>
+        </ul>
+        <ul taskController="more">
+            <li taskController="br"><i class="iconfont icon-fengexian"></i><span>添加分隔线</span></li>
+            <li taskController="linkBtn"><i class="fa fa-chain fa-x"></i>添加链接</li>
+        </ul>
+        <ul>
+            <li taskController="imageBtn"><i class="fa fa-picture-o fa-x"></i></li>
+            <li taskController="fontBtn"><i class="fa fa-font fa-x"></i></li>
+            <li taskController="moreBtn"><i class="fa fa-ellipsis-h fa-x"></i></li>
+            <li taskController="undo"><i class="fa fa-mail-reply fa-x"></i></li>
+            <li taskController="redo"><i class="fa fa-mail-forward fa-x"></i></li>
+            <li taskController="settingBtn"><i class="fa fa-cog fa-x"></i></li>
+        </ul>
+    </div> -->
+    <!-- <script src="./dist/bundle.js"></script> -->
+    <script src="./richeditor.js"></script>
+</body>
+</html>
