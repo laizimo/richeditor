@@ -1,0 +1,44 @@
+#editor .editor-link{
+    text-decoration: none;
+    color: #2AAFF3;
+}
+
+.img-block{
+    font-size: 0;
+}
+
+.process{
+    height: 5px;
+    display: inline-block;
+}
+
+.fill{
+    height: 100%;
+    background: #2AAFF3;
+    width: 0;
+}
+
+.cover{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+#editor:empty:not(:focus)::before {
+    content: "请输入正文";
+    opacity: .5;
+}
+
+blockquote::before {
+	content: open-quote;
+	position: absolute;
+	z-index: -1;
+	color: #DDD;
+	font-size: 120px;
+	font-family: serif;
+	font-weight: bolder;
+}
